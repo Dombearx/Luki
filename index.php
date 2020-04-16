@@ -7,6 +7,13 @@
 </head>
 <body>
 
+    <form action="login.php", method="post">
+        Login: <input type="text", name="login">
+        Hasło: <input type="text", name="password">
+        <input type="submit", value="Zaloguj">
+    </from>
+
+
 	Mariusz elo joł co tam
     
 </body>
