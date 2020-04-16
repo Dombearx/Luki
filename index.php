@@ -11,9 +11,16 @@
 <body>
 
     <?php
+
+        session_start();
+
         if(isset($_SESSION['error'])){
             echo "".$_SESSION['error'];
         }
+        if(isset($_SESSION['blad'])){
+            echo $_SESSION['blad'];
+        }
+        
     ?>
 
     <div class="Logowanie">

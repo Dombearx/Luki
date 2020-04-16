@@ -19,8 +19,15 @@
 	
 <?php
 
-    echo "<p>Witaj ".$_SESSION['user'].'!';
-    echo "<p>Typ ".$_SESSION['type'].'!';
+    if($_SESSION['type'] == "admin"){
+        echo "<p>Administrator:  ".$_SESSION['user'].'!';
+        echo "<p>Typ ".$_SESSION['type'].'!';
+    } else {
+        echo "<p>Witaj ".$_SESSION['user'].'!';
+        echo "<p>Typ ".$_SESSION['type'].'!';
+    }
+
+
 
 	#echo "<p>Witaj ".$_SESSION['user'].'! [ <a href="logout.php">Wyloguj się!</a> ]</p>';
 	#echo "<p><b>Drewno</b>: ".$_SESSION['drewno'];
