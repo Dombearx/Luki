@@ -26,4 +26,8 @@
 
     echo $login." ".$password;
 
+<<<<<<< HEAD
 ?>
+=======
+?> 
+>>>>>>> a8a85f3c5209f9e232c11a1324db2e138e4e10e4
