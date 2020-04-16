@@ -1,5 +1,6 @@
 :root { 
-    font-size: 1vw;
+    font-size: 32px;
+    color: white;
 }
 
 
@@ -8,15 +9,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-image: url("./7.jpg");
-    font-size: 2rem;
-    
+
 }
 
 a { 
     text-decoration: none;
-    padding: 
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
+.menu { 
+    
+    width: 100%;
+    box-sizing: border-box;
+}
 
 
 .Rejestracja, .Logowanie { 
@@ -24,8 +31,7 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 10vh;
-    padding: 1vh;
-    background-color: brown;
+    background-color: hsla(0, 0%, 0%, 0.7);
 }
 
 .Logowanie div, .Rejestracja div { 

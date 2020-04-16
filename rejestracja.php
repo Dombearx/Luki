@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="Rejestracja">
-
+    <div>
         <form action="register.php", method="post">
 
         <div>
@@ -31,10 +31,13 @@
         <div>
             <input type="submit", value="Utwórz konto">
         </div>
+
+        </form>
+
         <div>
             <a href="./index.php">Strona Główna</a>
         </div>
-        
+        </div>
     </div>
 
 

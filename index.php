@@ -13,6 +13,7 @@
 
 
     <div class="Logowanie">
+    <div>
         <form action="login.php", method="post">
 
         <div>
@@ -26,19 +27,18 @@
         <div>
             <input type="submit", value="Zaloguj">
         </div>
-
+  
         </form>
         
-        <div>
+        <div class="menu">
             <a href="./rejestracja.php">Rejestracja</a>
         </div>
 
     </div>
-
-
-
-    
-        </form>
     </div>
+
+
+
+  
 </body>
 </html>
