@@ -26,10 +26,18 @@
 
     <div class="Rejestracja">
         <form action="register.php", method="post">
+        <div id="Logowanie">    
             Login: <input type="text", name="login">
+        </div>   
+        <div> 
             Hasło: <input type="text", name="password">
+        </div>
+        <div>
             Powtórz hasło: <input type="text", name="password_repeat">
+        </div>
+        <div>
             <input type="submit", value="Utwórz konto">
+        </div>
         </form>
     </div>
 </body>
