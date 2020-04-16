@@ -3,41 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Logowanko</title>
 
     <link rel="stylesheet" type="text/css" href="./style.css">
     
 </head>
 <body>
 
+
+
     <div class="Logowanie">
         <form action="login.php", method="post">
-            <div id="insert_login">
-                Login: <input type="text", name="login">
+
+            <div>
+                Login
+            </div> 
+            <input type="text", name="login">         
+            <div>
+                Hasło
             </div>
-            <div id="insert_password">
-            Hasło: <input type="text", name="password">
-            </div>
-            <div id="confirm_button">
+            <input type="password", name="password">          
+            <div>
                 <input type="submit", value="Zaloguj">
             </div>
+
         </form>
     </div>
 
-    <div class="Rejestracja">
-        <form action="register.php", method="post">
-        <div id="Logowanie">    
-            Login: <input type="text", name="login">
-        </div>   
-        <div> 
-            Hasło: <input type="text", name="password">
-        </div>
-        <div>
-            Powtórz hasło: <input type="text", name="password_repeat">
-        </div>
-        <div>
-            <input type="submit", value="Utwórz konto">
-        </div>
+        <a href="./rejestracja.php">Rejestracja</a>
+
+    
         </form>
     </div>
 </body>
