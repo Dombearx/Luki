@@ -1,33 +1,62 @@
 <?php
-    /******************************************************
-    * connection.php
-    * konfiguracja połączenia z bazą danych
-    ******************************************************/
 
-    function connection() {
-        // serwer
-        $mysql_server = "localhost";
-        // admin
-        $mysql_admin = "uzytkownik";
-        // hasło
-        $mysql_pass = "haslo";
-        // nazwa baza
-        $mysql_db = "baza_danych";
-        // nawiązujemy połączenie z serwerem MySQL
-        @mysql_connect($mysql_server, $mysql_admin, $mysql_pass)
-        or die('Brak połączenia z serwerem MySQL.');
-        // łączymy się z bazą danych
-        @mysql_select_db($mysql_db)
-        or die('Błąd wyboru bazy danych.');
-    }
+	session_start();
+	
+	if ((!isset($_POST['login'])) || (!isset($_POST['password']) ))
+	{
+		header('Location: index.php');
+		exit();
+	}
 
-    $login = $_POST['login'];
-    $password = $_POST['password'];
+	require_once "connect.php";
 
-    echo $login." ".$password;
+	$polaczenie = @new mysqli($host, $db_user, $db_password, $db_name);
+	
+	if ($polaczenie->connect_errno!=0)
+	{
+		echo "Error: ".$polaczenie->connect_errno;
+	}
+	else
+	{
+		$login = $_POST['login'];
+        $haslo = $_POST['password'];
+		
+		$login = htmlentities($login, ENT_QUOTES, "UTF-8");
+        $haslo = htmlentities($haslo, ENT_QUOTES, "UTF-8");
 
-<<<<<<< HEAD
+
+        if ($rezultat = @$polaczenie->query(
+            sprintf("SELECT * FROM users WHERE login='%s' AND password='%s'",
+            mysqli_real_escape_string($polaczenie,$login),
+            mysqli_real_escape_string($polaczenie,$haslo))))
+            {
+                $ilu_userow = $rezultat->num_rows;
+                if($ilu_userow>0)
+                {
+                    $_SESSION['zalogowany'] = true;
+                    
+                    $wiersz = $rezultat->fetch_assoc();
+                    $_SESSION['id'] = $wiersz['id'];
+                    $_SESSION['user'] = $wiersz['login'];
+                    $_SESSION['type'] = $wiersz['type'];
+                    
+                    unset($_SESSION['blad']);
+                    $rezultat->free_result();
+                    header('Location: main.php');
+                    
+                } else {
+                    
+                    $_SESSION['blad'] = '<span style="color:red">Nieprawidłowy login lub hasło!</span>';
+                    header('Location: index.php');
+                    
+                }
+                
+            }
+
+
+		
+		$polaczenie->close();
+	}
+	
 ?>
-=======
-?> 
->>>>>>> a8a85f3c5209f9e232c11a1324db2e138e4e10e4
+    
