@@ -4,16 +4,19 @@
 
 
 body { 
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: url("./3.png");
-    font-size: min(3vw, 30px);
+    background-image: url("./7.jpg");
+    font-size: 2rem;
     
 }
 
 a { 
     text-decoration: none;
+    padding: 
 }
+
 
 
 .Rejestracja, .Logowanie { 
@@ -21,6 +24,8 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 10vh;
+    padding: 1vh;
+    background-color: brown;
 }
 
 .Logowanie div, .Rejestracja div { 

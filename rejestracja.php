@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<div class="Rejestracja">
+    <div class="Rejestracja">
 
         <form action="register.php", method="post">
 
@@ -31,9 +31,11 @@
         <div>
             <input type="submit", value="Utwórz konto">
         </div>
-
-        <a href="./index.php">Strona Główna</a>
-    
+        <div>
+            <a href="./index.php">Strona Główna</a>
+        </div>
+        
+    </div>
 
 
 </body>
