@@ -25,17 +25,24 @@
 		$login = htmlentities($login, ENT_QUOTES, "UTF-8");
         $haslo = htmlentities($haslo, ENT_QUOTES, "UTF-8");
         $haslo_powt = htmlentities($haslo_powt, ENT_QUOTES, "UTF-8");
-	
-		if ($rezultat = @$polaczenie->query(
-        sprintf("INSERT INTO users (login, password, type) VALUES ('%s', '%s', 'user')",        
-		mysqli_real_escape_string($polaczenie,$login),
-        mysqli_real_escape_string($polaczenie,$haslo))))
-		{
-			echo "Succsessfulll";
-			
-		} else {
-            echo "Eroor";
+
+        if($haslo == $haslo_powt){
+            if ($rezultat = @$polaczenie->query(
+                sprintf("INSERT INTO users (login, password, type) VALUES ('%s', '%s', 'user')",        
+                mysqli_real_escape_string($polaczenie,$login),
+                mysqli_real_escape_string($polaczenie,$haslo))))
+                {
+                    echo "Konto zostało utworzone";
+                    
+                } else {
+                    echo "Błąd";
+                }
+        } else {
+            header('Location: index.php');
+            exit();
         }
+	
+
 		
 		$polaczenie->close();
 	}
