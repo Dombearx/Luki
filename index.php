@@ -10,6 +10,12 @@
 </head>
 <body>
 
+    <?php
+        if(isset($_SESSION['error'])){
+            echo "".$_SESSION['error'];
+        }
+    ?>
+
     <div class="Logowanie">
         <form action="login.php", method="post">
             <div id="insert_login">
