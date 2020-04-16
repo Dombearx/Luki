@@ -24,6 +24,7 @@
     ?>
 
     <div class="Logowanie">
+        <div>
         <form action="login.php", method="post">
 
         <div>
@@ -43,13 +44,10 @@
         <div>
             <a href="./rejestracja.php">Rejestracja</a>
         </div>
+        </div>
 
     </div>
 
 
-
-    
-        </form>
-    </div>
 </body>
 </html>

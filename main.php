@@ -1,6 +1,8 @@
 <?php
 
-	session_start();
+    
+    ini_set('session.cookie_secure', '0');
+    session_start();
 	
 	if (!isset($_SESSION['zalogowany']))
 	{
@@ -18,6 +20,10 @@
 <body>
 	
 <?php
+
+foreach ($_SESSION as &$value) {
+    echo $value;
+}
 
     if($_SESSION['type'] == "admin"){
         echo "<p>Administrator:  ".$_SESSION['user'].'!';

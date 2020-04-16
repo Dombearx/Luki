@@ -37,7 +37,6 @@
 				{
                     $_SESSION['zalogowany'] = true;
                     
-                    $wiersz = $rezultat->fetch_assoc();
                     $_SESSION['id'] = $wiersz['id'];
                     $_SESSION['user'] = $wiersz['login'];
                     $_SESSION['type'] = $wiersz['type'];
