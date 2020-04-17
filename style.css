@@ -1,22 +1,30 @@
 :root { 
     font-size: 32px;
-    color: white;
+    color:white;
 }
-
+html { 
+    height: 100%;
+}
 
 body { 
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: url("./7.jpg");
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgb(3, 3, 3, 0.3)), url('./5.jpg'); */
+    background-image: url("./5.jpg");
+    background-size: cover;
 
 }
 
-a { 
+a, input.button {
     text-decoration: none;
-    background-color: white;
+    background-color: rgba(7, 7, 7, 0.514);
     border-radius: 5px;
     box-sizing: border-box;
+    font-size: medium;
+    padding: 5px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
 }
 
 .menu { 
@@ -30,13 +38,20 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
-    background-color: hsla(0, 0%, 0%, 0.7);
+    margin: 10% 40% 10% 40%;
+    background-color: rgb(9, 123, 189);
 }
 
 .Logowanie div, .Rejestracja div { 
     margin: 1vh;
 
 }
+
+
+/* input { 
+    width: 100%;
+    border: 3px rgba(132, 0, 255, 0.575) solid;
+} */
+
 
 

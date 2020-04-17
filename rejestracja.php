@@ -29,7 +29,7 @@
         
 
         <div>
-            <input type="submit", value="Utwórz konto">
+            <input class="button" type="submit", value="Utwórz konto">
         </div>
 
         </form>

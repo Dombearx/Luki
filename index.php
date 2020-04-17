@@ -25,7 +25,7 @@
         </div>
         <input type="password", name="password">          
         <div>
-            <input type="submit", value="Zaloguj">
+            <input class="button" type="submit", value="Zaloguj">
         </div>
   
         </form>
