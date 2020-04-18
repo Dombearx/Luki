@@ -24,18 +24,53 @@
 <body>
 
 <!-- Lista ćwiczeń:  -->
+<table>
 
-    <ol>
-        <!-- Nazwa -->
-        <li>Nazwa Ćwiczenia
-            <ul>
-                <li>Liczba serii</li>
-                <li>Liczba powtózeń w serii</li>
-                <li>Opis ćwiczenia - pojawia się po kilkincięu w ćwiczenei</li>
-            </ul>
-        </li>
+<!-- Nazwa ćwiczenia  -->
+    <tr>
+        <th>
+            Nazwa Ćwiczenia
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Liczba serii
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Liczba powtózeń w serii
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Opis ćwiczenia - pojawia się po kilkincięu w ćwiczenei
+        </td>
+    </tr>
 
-    </ol>
+<!-- Nazwa kolejnego ćwiczenia -->
+
+    <tr>
+        <th>
+            Nazwa Ćwiczenia
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Liczba serii
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Liczba powtózeń w serii
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Opis ćwiczenia - pojawia się po kilkincięu w ćwiczenei
+        </td>
+    </tr>
+</table>
 
     
 </body>

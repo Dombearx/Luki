@@ -57,5 +57,18 @@ input {
     
 }
 
+table { 
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 10vw 10vh 10vw;
+}
+
+table th { 
+    padding: 7vh;
+}
+
+
 
 
