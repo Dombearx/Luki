@@ -19,7 +19,7 @@ body {
 
 a, input.button {
     text-decoration: none;
-    background-color: rgba(7, 7, 7, 0.514);
+    background-color: gray;
     border-radius: 5px;
     box-sizing: border-box;
     font-size: medium;
@@ -27,6 +27,7 @@ a, input.button {
     color: rgba(255, 255, 255, 1);
     border: none;
 }
+
 
 .menu { 
     
