@@ -16,11 +16,11 @@
     <div>
         <form action="login.php", method="post">
 
-        <div>
+    <div>
             Login
-        </div> 
-        <input type="text", name="login">         
-        <div>
+    </div>
+    <input type="text", name="login", id="login">         
+    <div>
             Hasło
         </div>
         <input type="password", name="password">          
