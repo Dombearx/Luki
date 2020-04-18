@@ -69,6 +69,14 @@ table th {
     padding: 7vh;
 }
 
+.opis { 
+    color: red;
+    display: none;
+}
+
+  .show:focus ~ .opis {
+    display: block;
+  }
 
 
 

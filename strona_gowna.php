@@ -43,10 +43,20 @@
         </td>
     </tr>
     <tr>
-        <td>
+        <td class="show" tabindex="0">
             Opis ćwiczenia - pojawia się po kilkincięu w ćwiczenei
         </td>
+
+        <td class="opis" tabindex="0">
+            Działający opis ćwiczenia
+        </td>
     </tr>
+
+    <!-- <tr class="opis" tabindex="0">
+        <td>        
+    Działający opis ćwiczenia
+    </td>    
+</tr> -->
 
 <!-- Nazwa kolejnego ćwiczenia -->
 
