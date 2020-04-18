@@ -40,8 +40,8 @@ a, input.button {
     justify-content: center;
     align-items: center;
     margin: 10% 40% 10% 40%;
-    background-color: rgba(5, 5, 5, 0.712);
-    min-width: 10vh;
+    background: radial-gradient(circle, rgba(0,0,0,0.7455357142857143) 47%, rgba(0,0,0,0.6530987394957983) 100%);    opacity: 90%;
+    border-radius: 10px;
 }
 
 .Logowanie div, .Rejestracja div { 
