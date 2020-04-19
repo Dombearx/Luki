@@ -25,7 +25,9 @@ body {
     margin: 0;
 }
 
-
+.bg_white { 
+    background-color: rgb(240, 240, 240);
+}
 
 a, input.button {
     text-decoration: none;
@@ -137,4 +139,19 @@ table, th, td {
 
 .pokaz_opis:hover {
     color: red;
+}
+
+td input { 
+    border: none;
+    background-color: white;
+    padding: 9px;
+    font-size: 0.5rem;
+}
+
+.ok_button { 
+    padding: 7px;
+}
+
+.ok_button:hover {
+    cursor: pointer;
 }

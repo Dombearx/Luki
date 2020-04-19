@@ -31,69 +31,6 @@
 
 <h2>Ćwiczenia</h2>
 
-<!-- Lista ćwiczeń:  -->
-
-<ol>
-
-        <!-- Pierwsze ćwiczenie/pierwszy element numerowanej listy -->
-        <li class="cwiczenie" id="cwiczenie1">Nazwa Ćwiczenia
-
-        <ul>
-            <li>Liczba serii : </li>
-            <li>Liczba powtózeń w serii</li>
-
-            <!-- Rozwijanie opisu -->
-            <a href="#opis1">Opis ćwiczenia</a>
-
-            <li class="opis" id="opis1">Opis ćwiczenia pojawiający się po kliknięciu
-
-            <br>
-        
-            <a href="#cwiczenie1" class="dont_wrap">Schowaj tekst</a>
-        <!-- Zakończenie pierwszego ćwiczenia -->
-            </li>
-
-        </ul>
-
-        <!-- Ćwiczenie drugie -->
-        <li class="cwiczenie" id="cwiczenie2">Nazwa Ćwiczenia
-
-        <ul>
-            <li>Liczba serii : </li>
-            <li>Liczba powtózeń w serii</li>
-
-            <!-- Rozwijanie opisu -->
-            <a href="#opis2">Opis ćwiczenia</a>
-
-            <li class="opis" id="opis2">Opis ćwiczenia pojawiający się po kliknięciu
-
-            <br>
-        
-            <a href="#cwiczenie2" class="dont_wrap">Schowaj tekst</a>
-
-            </li>
-
-        </ul>
-
-        <li class="cwiczenie" id="cwiczenie3">Nazwa Ćwiczenia
-
-        <ul>
-            <li>Liczba serii : </li>
-            <li>Liczba powtózeń w serii</li>
-
-            <!-- Rozwijanie opisu -->
-            <a href="#opis3">Opis ćwiczenia</a>
-
-            <li class="opis" id="opis3">Opis ćwiczenia pojawiający się po kliknięciu
-
-            <br>
-        
-            <a href="#cwiczenie3" class="dont_wrap">Schowaj tekst</a>
-
-            </li>
-
-        </ul>
-
         <!-- TABELE Z ĆWICZENIAMI -->
 
         <div class="tables" id="tabela_cwiczenia">
@@ -115,8 +52,8 @@
                 </tr>
                 <tr >
                     <!-- UKRYTE OPISY ĆWICZEŃ -->
-                    <td class="opis_table" id="op_tab_1">Opis ukryty1 <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
-                    <td class="opis_table" id="op_tab_2">Opis ukryty2 <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
+                    <td collapse="3" class="opis_table" id="op_tab_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus asperiores omnis accusantium facere, id ipsa doloribus vel? Nemo quia tenetur quod assumenda dignissimos, est modi sed, iste eaque asperiores cum.<a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
+                    <td collapse="3" class="opis_table" id="op_tab_2">Opis ukryty2 <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
 
                 </tr>
             </table>
@@ -128,13 +65,25 @@
                 </tr>
 
                 <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                <td>
+                        <input type="text">
+                        <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
+                    </td>
+                    <td>
+                        <input type="text">
+                        <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
+                    </td>
                 </tr>
 
                 <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                <td>
+                        <input type="text">
+                        <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
+                    </td>
+                    <td>
+                        <input type="text">
+                        <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
+                    </td>
                 </tr>
 
             </table>
