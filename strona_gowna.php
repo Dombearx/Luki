@@ -32,7 +32,7 @@
 <ol>
 
         <!-- Pierwsze ćwiczenie/pierwszy element numerowanej listy -->
-        <li class="cwiczenie">Nazwa Ćwiczenia
+        <li class="cwiczenie" id="cwiczenie1">Nazwa Ćwiczenia
 
         <ul>
             <li>Liczba serii : </li>
@@ -45,13 +45,14 @@
 
             <br>
         
-            <a href="./strona_gowna.php" class="dont_wrap" id="opis1">Schowaj tekst</a>
+            <a href="#cwiczenie1" class="dont_wrap" id="opis1">Schowaj tekst</a>
         <!-- Zakończenie pierwszego ćwiczenia -->
             </li>
 
         </ul>
 
-        <li class="cwiczenie">Nazwa Ćwiczenia
+        <!-- Ćwiczenie drugie -->
+        <li class="cwiczenie" id="cwiczenie2">Nazwa Ćwiczenia
 
         <ul>
             <li>Liczba serii : </li>
@@ -64,13 +65,13 @@
 
             <br>
         
-            <a href="./strona_gowna.php" class="dont_wrap" id="opis1">Schowaj tekst</a>
+            <a href="#cwiczenie2" class="dont_wrap" id="opis1">Schowaj tekst</a>
 
             </li>
 
         </ul>
 
-        <li class="cwiczenie">Nazwa Ćwiczenia
+        <li class="cwiczenie" id="cwiczenie3">Nazwa Ćwiczenia
 
         <ul>
             <li>Liczba serii : </li>
@@ -83,7 +84,7 @@
 
             <br>
         
-            <a href="./strona_gowna.php" class="dont_wrap" id="opis1">Schowaj tekst</a>
+            <a href="#cwiczenie3" class="dont_wrap" id="opis1">Schowaj tekst</a>
 
             </li>
 
