@@ -35,7 +35,7 @@
         </form>
 
         <div>
-            <a href="./index.php">Strona Główna</a>
+            <a href="./index.php" class="button">Strona Główna</a>
         </div>
         </div>
     </div>

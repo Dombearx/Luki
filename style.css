@@ -19,14 +19,23 @@ body {
 
 a, input.button {
     text-decoration: none;
+    /* box-sizing: border-box; */
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0;
+}
+
+
+.button { 
+    border: none;
     background-color: gray;
     border-radius: 5px;
-    box-sizing: border-box;
-    font-size: medium;
     padding: 5px;
-    color: rgba(255, 255, 255, 1);
-    border: none;
+    font-size: medium;
 }
+
+.button:hover {
+    cursor: pointer;
+ }
 
 
 .menu { 
@@ -57,12 +66,24 @@ input {
     
 }
 
-  .opis {
+/* Ukrycie opisów normalnych i tabel */
+
+  .opis, .opis_table {
     display: none;
+    margin: 0;
+    color: black;
   }
   
+  /* Wyświetlenie elementów ukrytych normalnych jako block */
+
   .opis:target {
     display: block;
+  }
+
+    /* Wyświetlenie elementów ukrytych normalnych jako wiersz tabeli */
+
+  .opis_table:target { 
+    display: table-row;
   }
 
   .dont_wrap { 
@@ -77,3 +98,29 @@ input {
     margin: 5vh;
     border-radius: 5px;
   }
+
+  .menu { 
+      margin-top: 5vh;
+      width: 100%;
+      background-color: red;
+  }
+
+
+.tables { 
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td { 
+
+    margin-top: 1vh;
+    border: 1px solid white;
+}
+
+.pokaz_opis { 
+    color: blue;
+}
+
+.pokaz_opis:hover {
+    color: red;
+}

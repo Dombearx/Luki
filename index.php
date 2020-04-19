@@ -29,8 +29,8 @@
         </div>
   
         </form>
-        <div class="button">
-            <a href="./rejestracja.php">Rejestracja</a>
+        <div>
+            <a href="./rejestracja.php" class="button">Rejestracja</a>
         </div>
 
     </div>
