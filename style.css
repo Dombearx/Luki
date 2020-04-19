@@ -57,26 +57,23 @@ input {
     
 }
 
-table { 
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10vh 10vw 10vh 10vw;
-}
-
-table th { 
-    padding: 7vh;
-}
-
-.opis { 
-    color: red;
+  .opis {
     display: none;
-}
-
-  .show:focus ~ .opis {
+  }
+  
+  .opis:target {
     display: block;
+  }
+
+  .dont_wrap { 
+      white-space: nowrap;
   }
 
 
 
+  .main { 
+    padding: 10vh;
+    background-color: gray;
+    margin: 5vh;
+    border-radius: 5px;
+  }

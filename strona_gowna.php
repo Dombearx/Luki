@@ -23,65 +23,79 @@
 </head>
 <body>
 
+<div class="main">
+
+<h2>Ćwiczenia</h2>
+
 <!-- Lista ćwiczeń:  -->
-<table>
 
-<!-- Nazwa ćwiczenia  -->
-    <tr>
-        <th>
-            Nazwa Ćwiczenia
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Liczba serii
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Liczba powtózeń w serii
-        </td>
-    </tr>
-    <tr>
-        <td class="show" tabindex="0">
-            Opis ćwiczenia - pojawia się po kilkincięu w ćwiczenei
-        </td>
+<ol>
 
-        <td class="opis" tabindex="0">
-            Działający opis ćwiczenia
-        </td>
-    </tr>
+        <!-- Pierwsze ćwiczenie/pierwszy element numerowanej listy -->
+        <li class="cwiczenie">Nazwa Ćwiczenia
 
-    <!-- <tr class="opis" tabindex="0">
-        <td>        
-    Działający opis ćwiczenia
-    </td>    
-</tr> -->
+        <ul>
+            <li>Liczba serii : </li>
+            <li>Liczba powtózeń w serii</li>
 
-<!-- Nazwa kolejnego ćwiczenia -->
+            <!-- Rozwijanie opisu -->
+            <a href="#opis1">Opis ćwiczenia</a>
 
-    <tr>
-        <th>
-            Nazwa Ćwiczenia
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Liczba serii
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Liczba powtózeń w serii
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Opis ćwiczenia - pojawia się po kilkincięu w ćwiczenei
-        </td>
-    </tr>
-</table>
+            <li class="opis" id="opis1">Opis ćwiczenia pojawiający się po kliknięciu
 
+            <br>
+        
+            <a href="./strona_gowna.php" class="dont_wrap" id="opis1">Schowaj tekst</a>
+        <!-- Zakończenie pierwszego ćwiczenia -->
+            </li>
+
+        </ul>
+
+        <li class="cwiczenie">Nazwa Ćwiczenia
+
+        <ul>
+            <li>Liczba serii : </li>
+            <li>Liczba powtózeń w serii</li>
+
+            <!-- Rozwijanie opisu -->
+            <a href="#opis2">Opis ćwiczenia</a>
+
+            <li class="opis" id="opis2">Opis ćwiczenia pojawiający się po kliknięciu
+
+            <br>
+        
+            <a href="./strona_gowna.php" class="dont_wrap" id="opis1">Schowaj tekst</a>
+
+            </li>
+
+        </ul>
+
+        <li class="cwiczenie">Nazwa Ćwiczenia
+
+        <ul>
+            <li>Liczba serii : </li>
+            <li>Liczba powtózeń w serii</li>
+
+            <!-- Rozwijanie opisu -->
+            <a href="#opis3">Opis ćwiczenia</a>
+
+            <li class="opis" id="opis3">Opis ćwiczenia pojawiający się po kliknięciu
+
+            <br>
+        
+            <a href="./strona_gowna.php" class="dont_wrap" id="opis1">Schowaj tekst</a>
+
+            </li>
+
+        </ul>
+
+
+    
+</ol>
+
+
+
+</div>
     
 </body>
 </html>
