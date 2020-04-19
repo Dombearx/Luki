@@ -94,6 +94,8 @@
 
         </ul>
 
+        <!-- TABELE Z ĆWICZENIAMI -->
+
         <div class="tables" id="tabela_cwiczenia">
             <table>
                 <tr>
@@ -118,6 +120,26 @@
 
                 </tr>
             </table>
+
+            <table>
+                <tr>
+                    <th>Ile wykonałem serii</th>
+                    <th>Ile wykonałem powtórzeń</th>
+                </tr>
+
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+            </table>
+
+
         </div>
 
 

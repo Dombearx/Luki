@@ -17,6 +17,16 @@ body {
 
 }
 
+.no_padding { 
+    padding: 0;
+}
+
+.no_margin { 
+    margin: 0;
+}
+
+
+
 a, input.button {
     text-decoration: none;
     /* box-sizing: border-box; */
@@ -74,13 +84,13 @@ input {
     color: black;
   }
   
-  /* Wyświetlenie elementów ukrytych normalnych jako block */
+/* Wyświetlenie elementów ukrytych normalnych jako block */
 
   .opis:target {
     display: block;
   }
 
-    /* Wyświetlenie elementów ukrytych normalnych jako wiersz tabeli */
+/* Wyświetlenie elementów ukrytych normalnych jako wiersz tabeli */
 
   .opis_table:target { 
     display: table-row;
@@ -109,6 +119,10 @@ input {
 .tables { 
     display: flex;
     justify-content: center;
+}
+
+table { 
+    margin: 2vw;
 }
 
 table, th, td { 
