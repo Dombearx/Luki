@@ -2,6 +2,11 @@
     font-size: 32px;
     color:white;
 }
+
+* { 
+    box-sizing: border-box;
+}
+
 html { 
     height: 100%;
 }
@@ -87,10 +92,12 @@ a, input.button {
     color: hsl(0, 0%, 10%);
   }
   
-/* Wyświetlenie elementów ukrytych normalnych jako block */
+/* Wyświetlenie elementów nie będących elementem tabeli i ukrytych normalnych jako block */
 
   .opis:target {
     display: block;
+    font-size: 0.8rem;
+    color: white;
   }
 
 /* Wyświetlenie elementów ukrytych normalnych jako wiersz tabeli */
@@ -130,6 +137,7 @@ a, input.button {
 
 #tabele_cwiczenia { 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -146,8 +154,11 @@ th, td {
 
 th { 
     background-color: hsl(0, 0%, 25%);
+    max-width: 15vw;
+    font-size: 1rem;
 }
 
+/* Przyciski z nazwami ćwiczeń pokazujące opis */
 .pokaz_opis { 
     color: hsl(216, 100%, 45%);
 }
