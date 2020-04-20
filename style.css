@@ -90,6 +90,7 @@ a, input.button {
     display: none;
     margin: 0;
     color: hsl(0, 0%, 10%);
+
   }
   
 /* Wyświetlenie elementów nie będących elementem tabeli i ukrytych normalnych jako block */
@@ -119,6 +120,7 @@ a, input.button {
       white-space: nowrap;
   }
 
+
 /* Główny blok */
 
   .main { 
@@ -144,12 +146,16 @@ a, input.button {
 table {   
     margin: 2vw;
     /* border: 1px solid white; */
+    max-width: 45vw;
+
+    
 }
 
 th, td { 
 
     border: 1px solid white;
     padding: 0.3vw;
+
 }
 
 th { 
