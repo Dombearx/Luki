@@ -41,7 +41,7 @@ body {
     border: none;
     background-color: gray;
     border-radius: 5px;
-    padding: 5px;
+    padding: 1vmin;
     font-size: medium;
 }
 
@@ -68,6 +68,11 @@ body {
 .Logowanie div, .Rejestracja div { 
     margin: 1vh;
 
+}
+
+img { 
+    width: 100%;
+    height: 20vh;
 }
 
 input { 
@@ -146,7 +151,7 @@ a, input.button {
 table {   
     margin: 2vw;
     /* border: 1px solid white; */
-    max-width: 45vw;
+    max-width: 45vmax;
 
     
 }
