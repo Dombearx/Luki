@@ -33,33 +33,46 @@
 
         <!-- TABELE Z ĆWICZENIAMI -->
 
-        <div class="tables" id="tabela_cwiczenia">
+        <div id="tabele_cwiczenia">
             <table>
                 <tr>
+                    <!-- Tytuły tabeli -->
                     <th>Nazwa Ćwiczenia</th>
                     <th>Liczba serii </th>
                     <th>Liczba powtorzen</th>
                 </tr>         
                 <tr>
+                    <!-- Ćwiczenie z linkiem do rozwinięcia opisu -->
                     <td><a href="#op_tab_1" class="pokaz_opis">Pompki</a></td>
                     <td>3</td>
                     <td>5</td>
                 </tr>
                 <tr>
-                <td><a href="#op_tab_2" class="pokaz_opis">Podciagniecia</a></td>
+                    <!-- Ćwiczenie z linkiem do rozwinięcia opisu -->
+                    <td><a href="#op_tab_2" class="pokaz_opis">Podciagniecia</a></td>
                     <td>2</td>
                     <td>1</td>
                 </tr>
-                <tr >
+
+                <tr>
                     <!-- UKRYTE OPISY ĆWICZEŃ -->
-                    <td collapse="3" class="opis_table" id="op_tab_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus asperiores omnis accusantium facere, id ipsa doloribus vel? Nemo quia tenetur quod assumenda dignissimos, est modi sed, iste eaque asperiores cum.<a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
-                    <td collapse="3" class="opis_table" id="op_tab_2">Opis ukryty2 <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
+
+                    <!-- OPIS 1  -->
+                    <td class="opis_table" id="op_tab_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus asperiores omnis accusantium facere, id ipsa doloribus vel? Nemo quia tenetur quod assumenda dignissimos, est modi sed, iste eaque asperiores cum.
+                    <!-- Ukrywanie opisu -->
+                    <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
+
+                    <!-- OPIS 2 -->
+                    <td class="opis_table" id="op_tab_2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sit molestias aperiam odit vero, distinctio accusamus culpa possimus nostrum temporibus ducimus voluptatum dicta quae aliquam amet tempora natus perspiciatis quasi.
+                    <!-- Ukrywanie opisu -->
+                    <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
 
                 </tr>
             </table>
 
             <table>
                 <tr>
+                    <!-- Tytuły tabeli -->
                     <th>Ile wykonałem serii</th>
                     <th>Ile wykonałem powtórzeń</th>
                 </tr>

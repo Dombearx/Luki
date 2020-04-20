@@ -29,12 +29,7 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
-a, input.button {
-    text-decoration: none;
-    /* box-sizing: border-box; */
-    color: rgba(255, 255, 255, 1);
-    margin-top: 0;
-}
+
 
 
 .button { 
@@ -51,12 +46,11 @@ a, input.button {
 
 
 .menu { 
-    
     width: 100%;
     box-sizing: border-box;
 }
 
-
+/* Box z rejestracją i logowaniem */
 .Rejestracja, .Logowanie { 
     display: flex;
     justify-content: center;
@@ -76,6 +70,13 @@ input {
     border-color: rgba(14, 13, 13, 0.233);
     border-radius: 5px;
     
+}
+
+a, input.button {
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0;
 }
 
 /* Ukrycie opisów normalnych i tabel */
@@ -114,23 +115,24 @@ input {
   .menu { 
       margin-top: 5vh;
       width: 100%;
-      background-color: red;
   }
 
+/* Tabele z ćwiczeniami */
 
-.tables { 
+#tabele_cwiczenia { 
     display: flex;
     justify-content: center;
 }
 
-table { 
+table {   
     margin: 2vw;
+    /* border: 1px solid white; */
 }
 
-table, th, td { 
+th, td { 
 
-    margin-top: 1vh;
     border: 1px solid white;
+    padding: 0.3vw;
 }
 
 .pokaz_opis { 
