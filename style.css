@@ -97,11 +97,22 @@ a, input.button {
 
   .opis_table:target { 
     display: table-row;
+    font-size: 0.8rem;
+    color: white;
   }
+
+/* Przyciski schowaj opis */
+
+  .schowaj_opis { 
+    font-size: 0.7rem;
+    color: hsl(216, 100%, 45%);
+}
 
   .dont_wrap { 
       white-space: nowrap;
   }
+
+/* Główny blok */
 
   .main { 
     padding: 10vh;
@@ -160,6 +171,3 @@ td input {
     cursor: pointer;
 }
 
-.schowaj_opis { 
-    font-size: 0.8rem;
-}
