@@ -60,12 +60,12 @@
                     <!-- OPIS 1  -->
                     <td class="opis_table" id="op_tab_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus asperiores omnis accusantium facere, id ipsa doloribus vel? Nemo quia tenetur quod assumenda dignissimos, est modi sed, iste eaque asperiores cum.
                     <!-- Ukrywanie opisu -->
-                    <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
+                    <a href="#tabela_cwiczenia" class="schowaj_opis"> Schowaj opis</a> </td>
 
                     <!-- OPIS 2 -->
                     <td class="opis_table" id="op_tab_2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni sit molestias aperiam odit vero, distinctio accusamus culpa possimus nostrum temporibus ducimus voluptatum dicta quae aliquam amet tempora natus perspiciatis quasi.
                     <!-- Ukrywanie opisu -->
-                    <a href="#tabela_cwiczenia"> Schowaj opis</a> </td>
+                    <a href="#tabela_cwiczenia" class="schowaj_opis"> Schowaj opis</a> </td>
 
                 </tr>
             </table>
@@ -78,34 +78,37 @@
                 </tr>
 
                 <tr>
-                <td>
+                <td>    
+                        <!-- Input do wprowadzania serii ćwiczenia 1 -->
                         <input type="text">
+                        <!-- Potwierdź wprowadzone serie ćwiczenia 1 -->
                         <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
                     </td>
                     <td>
+                        <!-- Input do wprowadzania powtórzeń ćwiczenia 1 -->
                         <input type="text">
+                        <!-- Potwierdź wprowadzone powtórzenia ćwiczenia 1 -->
                         <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
                     </td>
                 </tr>
 
                 <tr>
                 <td>
+                        <!-- Input do wprowadzania serii ćwiczenia 2 -->
                         <input type="text">
+                        <!-- Potwierdź wprowadzone serie ćwiczenia 2 -->
                         <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
                     </td>
                     <td>
+                        <!-- Input do wprowadzania serii ćwiczenia 2 -->
                         <input type="text">
+                        <!-- Potwierdź wprowadzone serie ćwiczenia 2 -->
                         <input class="confirm_button bg_white ok_button" type="submit" value="ok">    
                     </td>
                 </tr>
 
             </table>
-
-
-        </div>
-
-
-    
+        </div>  
 </ol>
 
 
